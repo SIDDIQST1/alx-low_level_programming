@@ -11,8 +11,11 @@ int main(void)
 	for (comb = 0; comb <= 9; comb++)
 	{
 		putchar(comb + '0');
-		putchar(44);
-		putchar(32);
+		if (comb < 9)
+		{
+		putchar(',');
+		putchar(' ');
+		}
 	}
 	putchar('\n');
 	return (0);
