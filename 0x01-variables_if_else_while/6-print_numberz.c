@@ -14,6 +14,6 @@ int main(void)
 
 		++under10;
 	}
-	printf("\n");
+	putchar('\n');
 return (0);
 }
