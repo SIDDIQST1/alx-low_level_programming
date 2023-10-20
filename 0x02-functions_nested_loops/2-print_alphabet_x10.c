@@ -2,7 +2,7 @@
 /**
  * print_alphabet_x10 - Entry point
  *
- * Return: ALways 0
+ * Return: ALways void
  */
 void print_alphabet_x10(void)
 {
@@ -15,7 +15,7 @@ void print_alphabet_x10(void)
 		{
 		putchar(lower_alphabet);
 		}
-	putchar('\n')
+	putchar('\n');
 	timer++;
 	}
 }
