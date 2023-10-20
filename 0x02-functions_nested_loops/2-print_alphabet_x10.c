@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
  * print_alphabet - check the code.
  *
@@ -14,9 +14,9 @@ void print_alphabet(void)
 	{
 		for (lower_alpha = 'a'; lower_alpha <= 'z'; lower_alpha++)
 		{
-			_putchar(lower_alpha);
-		_putchar('\n');
+			putchar(lower_alpha);
 		}
+		putchar('\n');
 		timer++;
 	}
 }
