@@ -1,22 +1,21 @@
 #include "main.h"
-
 /**
- * print_alphabet - check the code.
+ * print_alphabet_x10 - Entry point
  *
- * Return: Always 0.
+ * Return: ALways 0
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
+	char lower_alphabet;
 	int timer = 0;
-	char lower_alpha;
 
 	while (timer <= 9)
 	{
-		for (lower_alpha = 'a'; lower_alpha <= 'z'; lower_alpha++)
+		for (lower_alphabet = 'a'; lower_alphabet <= 'z'; lower_alphabet++)
 		{
-			putchar(lower_alpha);
+		putchar(lower_alphabet);
 		}
-		putchar('\n');
-		timer++;
+	putchar('\n')
+	timer++;
 	}
 }
