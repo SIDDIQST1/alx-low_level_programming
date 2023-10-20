@@ -7,7 +7,7 @@
  */
 void print_alphabet(void)
 {
-	int timer++ = 0;
+	int timer = 0;
 	char lower_alpha;
 
 	while (timer <= 9)
@@ -15,7 +15,8 @@ void print_alphabet(void)
 		for (lower_alpha = 'a'; lower_alpha <= 'z'; lower_alpha++)
 		{
 			putchar(lower_alpha);
-		}
 		putchar('\n');
+		timer++;
+		}
 	}
 }
