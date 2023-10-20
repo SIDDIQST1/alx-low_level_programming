@@ -16,7 +16,7 @@ void print_alphabet(void)
 		{
 			putchar(lower_alpha);
 		putchar('\n');
-		timer++;
 		}
+		timer++;
 	}
 }
